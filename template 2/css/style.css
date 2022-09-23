@@ -1,0 +1,476 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+perspective: 700px;
+background-color: rgba(73, 72, 72, 0.027);
+}
+header{
+    width: 90%;
+    height: 230px;
+    position: relative;
+    overflow: auto;
+    background-color:white;
+    
+    margin-left: 100px;
+    
+border-radius: 7px;
+}
+header img {
+    width: 200px;
+height: 230px;
+border-radius: 10px;
+float: left;
+}
+header ul {
+    display: block;
+    list-style: none;
+    float: left;
+   width: 60%;
+   text-align: center;
+    font-size: 27px;
+ 
+   
+}
+header ul li {
+display: inline-block;
+    
+ margin-left: 20px;
+line-height: 30px;
+margin-bottom: 10px;
+}
+
+header ul li a {
+   
+    text-decoration: none;
+    border:  solid 2px rgba(196, 8, 8, 0);
+    border-radius: 5px;
+   color: rgb(187, 37, 37);
+  
+   padding: 10px 10px;
+   transition: .5s;
+}
+
+ header ul li a:hover{
+    border:  solid 5px rgba(196, 8, 8, 1);
+ }
+.table{
+    width: 250px;
+    height: 140px;
+    float: left;
+    background-color: rgba(156, 0, 0, 0.411);
+    border-radius: 10px;
+    visibility: hidden;
+position: absolute;
+margin-top: 10px;
+margin-left: -80px;
+transition: .4s;
+overflow: auto;
+}
+.table1{
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;
+    color: gray;
+    font-size: 20px;
+}
+
+.qq:hover .table{
+    visibility: visible;
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
+
+
+ 
+
+.right{
+    float: left;
+    width: 160px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 40px ;
+    margin-top: 80px;
+}
+.right i{
+    font-size:27px;
+    margin-left: 10px;
+    color: rgb(122, 37, 37);
+}
+main{
+width: 85%;
+margin-left: 100px;
+}
+.sec1{
+    width: 100%;
+    position: relative;
+    border-radius: 7px;
+}
+.sec1 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.overlay{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.459);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 7px;
+}
+.overlay button{
+    width: 200px; 
+    background-color: darkred;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid black;
+margin-left: 50px;
+
+}
+.overlay .div1 h2{
+    color: white; 
+    /* text-align: center; */
+transition: .5s;
+}
+.overlay .div1 {
+    padding: 190px 100px;
+}
+.overlay .div1 h2:hover{
+    color: darkred;
+    transform: scale(1.2);
+    margin-left: 60px;
+}
+.sec2{
+    overflow: auto;
+    height: 580px;
+}
+ .title1{
+     text-align: center;
+
+}
+
+.line{
+    width: 200px;
+    height: 5px;
+    background-color: darkred;
+    border-radius: 3px;
+margin: auto;  
+transition: .5s;  
+}
+.sec2:hover  .line{
+    width: 100px;
+}
+.item{
+    width: 250px;
+    height: 390px;
+    background-color: rgb(202, 202, 202);
+    border-radius: 5px;
+   
+    margin-top:70px ;
+    float: left;
+    margin-left: 8px;
+    transition: .2s;
+}
+.item img{
+    width: 230px;
+    height: 230px;
+    padding: 5px 10px;
+}
+.item del{
+    float: left;
+    color: rgb(65, 64, 64);
+    margin-left: 20px;
+}
+.item p{
+    margin-left: 10px;
+    font-size: larger;
+  
+    line-height: 5px;
+ 
+}
+.item .p2{
+    color: dimgray;
+    
+}
+
+.item i {
+    color: dodgerblue;
+    margin-left :85%;
+font-size: 30px;
+visibility: hidden;
+transition: .2s;
+}
+.item:hover i{
+    visibility: visible;
+}
+.item:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 8px 2px rgb(114, 113, 113);
+}
+.sec3{
+    overflow: auto;
+}
+  .letter{
+    width: 500px;
+    height: 400px;
+    background-color: rgb(219, 204, 204);
+   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 8px;
+    float: left;
+}
+.sec3 .letter i{
+    font-size: 60px;
+    color: brown;
+    float: left;
+    padding: 5px 10px;
+}
+.text4 h2{
+    float: left;
+display: block;
+font-size: 35px;
+
+}
+.rr{
+ margin-top: -30px;
+  float: left;
+}
+.sec3 .letter p{
+    margin-left: 10px;
+    font-weight: bold;
+    line-height: 35px;
+    float: left;
+  
+}
+.dashed-line{
+    float:right;
+    margin-right: 50px;
+    margin-top: -35px;
+}
+.dash1{
+    width: 60px;
+    height: 3px;
+    background-color: darkblue;
+    border-radius:5px ;
+    float: left;
+    margin-left: 10px;
+}
+.offer  {
+    width: 260px;
+    height: 370px;
+    position: relative;
+    background-image: url(../images/shoes_.jpg);
+    float: left;
+    background-position:bottom;
+   
+    background-size:210px;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 30px 10px grey inset ;
+    transition: .3s;
+}
+ .details {
+    position: absolute;
+    color: rgb(65, 65, 65);
+    line-height: 3px;
+    margin-left: 40px;
+    font-size: 20px;
+    margin-top: 20px;
+    transition: .3s
+}
+.details:hover {
+transform: scale(1.05);
+color: rgb(51, 51, 243);
+}
+.offer:hover{
+    transform: scale(1.05);
+}
+.offer2  {
+    width: 260px;
+    height: 370px;
+    position: relative;
+    background-image: url(../images/ball.jpeg);
+    float: left;
+    background-position:bottom;
+   
+    background-size:250px;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 30px 10px grey inset ;
+    transition: .3s;
+}
+
+.offer2:hover{
+    transform: scale(1.05);
+}
+.sec4{
+    overflow: auto;
+    margin-top: 80px;
+}
+.vv{
+    width: 200px;
+    height: 150px;
+    background-color: rgba(255, 255, 255, 0);
+    float: left;
+
+
+
+}
+.vv h3{ text-align: center;}
+.vv p{
+    margin-top: -20px;
+    text-align: center;
+    color: gray;
+    font-size: small;
+}
+.vv i{ display: block;
+    text-align: center;
+    font-size: 42px;
+    margin-top: 15px;
+    color: gray;
+    transition: .5s;
+   
+}
+.vv:hover i{
+    transform: scale(1.5);
+    animation-name: run;
+    animation-duration: .6s;
+    animation-delay: 0;
+    position: relative;
+    animation-fill-mode: both;
+    
+    }
+    @keyframes run {
+    
+    0%{  top: 0%;
+        left: 0;
+    
+    }
+    50%{
+        top: -50%;
+        left: 0%;
+        transform: rotateY(180deg);
+        
+    }
+    100%{
+
+        top: 0;
+
+        left: 0;
+        color:rgb(57, 40, 218);
+    }
+}
+.end{
+    width: 90%;
+    height: 3px;
+    background-color: brown;
+    margin-top: 50px;
+    margin-left: 50px;
+    
+}
+footer{
+    width: 100%;
+   
+}
+.sec5{
+    overflow: auto;
+}
+.sec5:hover .line{
+    width: 100px;
+}
+.sec5 h2{
+    text-align: center;
+display: block;
+}
+.sec5 h3{
+    display: block;
+    float:left;
+    text-align: center;
+    margin: 30px 50px;
+    transition: .2s;
+   
+}
+.sec5 h3:hover{
+    color: rgb(61, 61, 231);
+    transform: scale(1.5);
+}
+.aa{ 
+   margin-left: 300px;
+}
+.real-madrid{
+    width: 350px;
+    height: 450px;
+    background-color: rgb(224, 223, 223);
+    border-radius: 7px;
+line-height: 5px;
+float: left;
+margin-left: 50px;
+margin-top: 50px;
+}
+.mm{
+    width: 350px;
+    height: 330px;
+    
+    position: relative;
+    transition: .8s;
+    transform-style: preserve-3d;
+
+ }
+ .mm .front{
+     width: 100%;
+     height: 100%;
+     background-image: url(../images/0129802_real-madrid-2122-home-jersey_gr3994_front-center-view.jpeg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: absolute;
+     z-index: 2;
+     backface-visibility: hidden;
+ }
+ .mm .back{
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/benzema.jpg);
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-position: center;
+    position: absolute;
+    z-index: 1;
+    transform: rotateY(180deg);
+
+ }
+ .back i{
+     font-size: 38px;
+     color: rgb(39, 39, 212);
+     margin-left: 5px;
+ }
+ .dd{
+     margin-top: 200px;
+    margin-left: 100px;
+ }
+ .mm:hover {
+     transform: rotateY(180deg);
+ }
+ .stars i{
+   color: rgb(182, 157, 13);
+   margin-top: 8px;
+   
+ }
+
+ 
+
+
+
+
+
+
+
+
